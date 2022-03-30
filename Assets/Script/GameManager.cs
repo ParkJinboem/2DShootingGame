@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     }
     IEnumerator EnemySpawn()
     {
-        Instantiate(Enemy, startPos.transform.position + new Vector3(1,2,-1), Quaternion.identity);
+        Instantiate(Enemy, startPos.transform.position + new Vector3(1,4,-1), Quaternion.identity);
         yield return new WaitForSeconds(5.0f);
         StartCoroutine("EnemySpawn");
 

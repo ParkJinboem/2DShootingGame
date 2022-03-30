@@ -322,7 +322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bullet: {fileID: 1240887441953726, guid: 8a976dcd328a4664c85144f33b9c46b0, type: 3}
-  FirePos: {fileID: 0}
+  FirePos: {fileID: 4574405651562524}
 --- !u!1 &1897587484924326
 GameObject:
   m_ObjectHideFlags: 0
