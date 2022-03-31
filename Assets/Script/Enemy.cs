@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         Pos = transform.position;
-        transform.Translate(Vector3.forward * 2 * Time.deltaTime);
+        transform.Translate(Vector3.forward * 5 * Time.deltaTime);
         transform.LookAt(WayPoint[count].transform);
         if(Vector3.Distance(WayPoint[count].transform.position, Pos) <2.0f)
         {
@@ -39,13 +39,10 @@ public class Enemy : MonoBehaviour
     {
         if(other.tag=="Bullet")
         {
-            Debug.Log("공격성공");
             Destroy(other.gameObject);
             CurrentHp--;
             if(CurrentHp<=0)
             {
-                GameManager.instance.Gold++;
-                GameManager.instance.textGold.text = GameManager.instance.Gold.ToString();
                 Destroy(gameObject);
             }
         }
