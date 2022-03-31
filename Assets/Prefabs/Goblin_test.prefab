@@ -516,10 +516,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WayPoint:
-  - {fileID: 2742417816369623259, guid: fb06d35428da88a4bb65141f4520a5ba, type: 3}
-  - {fileID: 5155098841711824480, guid: bb60354b0563490428f731ec71f0c5f5, type: 3}
-  - {fileID: 1423192426525785512, guid: 6b768f030c9e6744e9460462919c2b24, type: 3}
-  - {fileID: 6120965749119356692, guid: 65cee87f965d684449081130f58c9db0, type: 3}
+  - {fileID: 7703224260390781422, guid: fb06d35428da88a4bb65141f4520a5ba, type: 3}
+  - {fileID: 5717351092396923394, guid: bb60354b0563490428f731ec71f0c5f5, type: 3}
+  - {fileID: 1096670761867134320, guid: 6b768f030c9e6744e9460462919c2b24, type: 3}
+  - {fileID: 4109578699998401523, guid: 65cee87f965d684449081130f58c9db0, type: 3}
   Pos: {x: 0, y: 0, z: 0}
   CurrentHp: 0
 --- !u!1 &1300070071406548
