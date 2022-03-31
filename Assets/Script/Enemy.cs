@@ -16,7 +16,6 @@ public class Enemy : MonoBehaviour
         {
             WayPoint[i] = GameObject.Find("WayPoint" + (i + 1));
         }
-        CurrentHp = 5;
         count = 0;
     }
 
@@ -40,6 +39,7 @@ public class Enemy : MonoBehaviour
         if(other.tag=="Bullet")
         {
             Debug.Log("공격성공");
+
             Destroy(other.gameObject);
             CurrentHp--;
             if(CurrentHp<=0)

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - enemyBug
   - Enemy
+  - Tower
+  - Bullet
+  - Map
   layers:
   - Default
   - TransparentFX

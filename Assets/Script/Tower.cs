@@ -7,7 +7,7 @@ public class Tower : MonoBehaviour
     public GameObject Bullet;
     public Transform FirePos;
     float currentTime;
-    float attackRange = 15.0f;
+    float attackRange = 5.0f;
     Transform towerTarget;
     Vector3 dir;
     // Start is called before the first frame update
@@ -22,8 +22,8 @@ public class Tower : MonoBehaviour
         currentTime += Time.deltaTime;
         GameObject[] enemy = GameObject.FindGameObjectsWithTag("Enemy");
         float short_dis = attackRange;
-
         towerTarget = null;
+
         for(int i=0; i<enemy.Length; i++)
         {
             float dis = Vector3.Distance(transform.position, enemy[i].transform.position);
